@@ -2,6 +2,8 @@ body {
   background-color: cornflowerblue;
 }
 
+/****** NAV *********/
+
 .navigation {
     display: flex;
     justify-content: space-between;
@@ -31,11 +33,38 @@ ul a {
 }
 
 ul a:hover {
-    background: rgb(117, 73, 73)
+    background: rgb(146, 101, 101)
 }
 
 ul a {
     display: block;
     padding: 1em;
     color: white;
+}
+
+/****** Dogs *******/
+
+.dogs {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.dogs img {
+    width: 300px;
+    margin: 50px;
+}
+
+
+/******* Cats ******/
+
+.cats {
+    display: flex;
+    flex: row wrap;
+    justify-content: center;
+}
+
+.cats img {
+    width: 300px;
+    margin: 50px;
 }
