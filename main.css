@@ -2,6 +2,8 @@ body {
   background-color: cornflowerblue;
 }
 
+/****** NAV *********/
+
 .navigation {
     display: flex;
     justify-content: space-between;
@@ -38,4 +40,17 @@ ul a {
     display: block;
     padding: 1em;
     color: white;
+}
+
+/****** Dogs *********/
+
+.dogs {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.dogs img {
+    width: 300px;
+    margin: 50px;
 }
