@@ -42,7 +42,7 @@ ul a {
     color: white;
 }
 
-/****** Dogs *********/
+/****** Dogs *******/
 
 .dogs {
     display: flex;
@@ -51,6 +51,20 @@ ul a {
 }
 
 .dogs img {
+    width: 300px;
+    margin: 50px;
+}
+
+
+/******* Cats ******/
+
+.cats {
+    display: flex;
+    flex: row wrap;
+    justify-content: center;
+}
+
+.cats img {
     width: 300px;
     margin: 50px;
 }
