@@ -1,3 +1,41 @@
-body{
-    background-color: cornflowerblue;
+body {
+  background-color: cornflowerblue;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(106, 179, 179);
+}
+
+ul {
+    list-style: none;
+    text-transform: uppercase;
+    display: flex;
+}
+
+.logo {
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+.logo a {
+     color: rgb(40, 68, 38);
+}
+
+.logo a,
+ul a {
+    text-decoration: none;
+    letter-spacing: .45em;
+}
+
+ul a:hover {
+    background: rgb(117, 73, 73)
+}
+
+ul a {
+    display: block;
+    padding: 1em;
+    color: white;
 }
